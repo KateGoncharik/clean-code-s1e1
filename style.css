@@ -27,7 +27,7 @@
 
 }
 
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -106,7 +106,7 @@ label[for='new-task'] {
     margin: 0 0 20px;
 }
 
-input#new-task {
+.new-task {
     width: 318px;
 }
 
