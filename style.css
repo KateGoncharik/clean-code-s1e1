@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -43,7 +43,7 @@ body {
     display: flex;
 }
 
-ul {
+.list {
     margin: 0;
     padding: 0px;
 }
@@ -53,7 +53,8 @@ h3 {
     list-style: none;
 }
 
-input,button{
+input,
+button{
     outline: none;
 }
 
@@ -150,21 +151,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.list #completed-tasks .task {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.list .list__item input[type=text] {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+.list .editMode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.editMode label {
+.list .editMode .task {
     display: none;
 }
